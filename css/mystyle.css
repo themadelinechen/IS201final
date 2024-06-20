@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+/* Set font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+/* Left menu styles */
+.leftmenu {
+    flex: 0 0 30%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.leftmenu img {
+    margin-bottom: 10px;
+}
+
+.anchors {
+    color: pink;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Center horizontally */
+}
+
+.mission {
+    font-style: italic;
+    color: #777;
+    text-align: center; /* Center horizontally */
+}
+
+/* Heading styles */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center; /* Center horizontally */
+}
+
+.ab
+
+/* List styles */
+ul, ol {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+/* Link styles */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Custom styles for divs */
+.resumeListHeading {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Video styles */
+.video {
+    margin-top: 20px;
+    text-align: center; /* Center the video horizontally */
+}
+
+iframe {
+    display: block; /* Ensure the video takes full width */
+    margin: 0 auto; /* Center the video horizontally */
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color:gray;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
